@@ -1,0 +1,301 @@
+import { FurnitureItemInfo } from '../types/apartment';
+
+export const FURNITURE_CATALOG: Record<string, FurnitureItemInfo> = {
+  // ================= 3.1 BEDROOM 1 – STUDIO (UPPER LEFT) =================
+  'studio-pc-1': {
+    id: 'studio-pc-1',
+    name: 'White Gaming PC (Workstation Alpha)',
+    category: 'Studio',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'White Aluminum / Tempered Glass / ARGB Components',
+    dimensions: '28.5 × 46 × 45 cm',
+    description:
+      'Premium white dual-chamber gaming workstation featuring pillarless clear tempered glass, custom white triple-fan graphics card, 360mm AIO CPU liquid cooler, combed white sleeve cable management, and ice-blue ARGB fans.',
+    focusTarget: [-6.45, 0.98, -5.88],
+    orbitOffset: [-0.42, 0.26, 0.92],
+  },
+  'studio-pc-2': {
+    id: 'studio-pc-2',
+    name: 'White Gaming PC (Workstation Beta)',
+    category: 'Studio',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'White Aluminum / Tempered Glass / ARGB Components',
+    dimensions: '28.5 × 46 × 45 cm',
+    description:
+      'Matching pure-white showcase desktop tower with tempered-glass side & front panels, white RTX GPU, infinity-mirror CPU waterblock, tidy braided power cables, and soft pearl-violet ARGB illumination.',
+    focusTarget: [-4.45, 0.98, -5.88],
+    orbitOffset: [0.42, 0.26, 0.92],
+  },
+  'studio-desk-1': {
+    id: 'studio-desk-1',
+    name: 'White Dual-Monitor Studio Desk (Left)',
+    category: 'Studio',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'Matte Pure White Laminate / Powder-Coated White Steel / Wool Felt',
+    dimensions: '170 × 76 × 75 cm',
+    description:
+      'Motorized white studio desk equipped with a 34-inch ultrawide display, angled 27-inch reference monitor, 75% white aluminum mechanical keyboard, wireless mouse, studio speakers, and over-ear headphones.',
+    focusTarget: [-7.05, 0.95, -5.95],
+    orbitOffset: [0.15, 0.58, 1.65],
+  },
+  'studio-desk-2': {
+    id: 'studio-desk-2',
+    name: 'White Dual-Monitor Studio Desk (Right)',
+    category: 'Studio',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'Matte Pure White Laminate / Powder-Coated White Steel / Wool Felt',
+    dimensions: '170 × 76 × 75 cm',
+    description:
+      'Twin white gaming and creative workstation desk featuring dual white bezel-less monitors on articulated arms, custom white mechanical keyboard, ultralight mouse, and brushed aluminum headphone stand.',
+    focusTarget: [-5.05, 0.95, -5.95],
+    orbitOffset: [-0.15, 0.58, 1.65],
+  },
+  'studio-chair-1': {
+    id: 'studio-chair-1',
+    name: 'White Ergonomic Studio Chair (Left)',
+    category: 'Studio',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'White Micro-Grain Leather / Cast White Aluminum',
+    dimensions: '68 × 68 × 124 cm',
+    description:
+      'Contoured white ergonomic task and gaming chair with integrated lumbar support pillow, headrest cushion, 4D armrests, and five-star white aluminum wheelbase.',
+    focusTarget: [-7.12, 0.65, -5.18],
+    orbitOffset: [0.65, 0.55, 1.35],
+  },
+  'studio-chair-2': {
+    id: 'studio-chair-2',
+    name: 'White Ergonomic Studio Chair (Right)',
+    category: 'Studio',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'White Micro-Grain Leather / Cast White Aluminum',
+    dimensions: '68 × 68 × 124 cm',
+    description:
+      'Matching pure-white high-back ergonomic chair engineered for studio comfort and visual harmony across both workstations.',
+    focusTarget: [-5.12, 0.65, -5.18],
+    orbitOffset: [-0.65, 0.55, 1.35],
+  },
+  'studio-bed': {
+    id: 'studio-bed',
+    name: 'Atelier King Platform Bed',
+    category: 'Studio Bedroom',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'Ivory Bouclé / Light Oak / Crisp White Cotton',
+    dimensions: '215 × 228 × 105 cm',
+    description:
+      'Architectural king platform bed with warm recessed under-bed LED lighting, fluted light-oak headboard wall, layered organic white bedding, and twin designer bedside tables.',
+    focusTarget: [-7.75, 0.56, -2.15],
+    orbitOffset: [2.45, 1.25, -1.25],
+  },
+  'studio-tv': {
+    id: 'studio-tv',
+    name: '85" Studio Wall-Mounted OLED Television',
+    category: 'Studio Bedroom',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'Anti-Reflective OLED Glass / Calacatta Marble / Fluted Oak',
+    dimensions: '190 × 108 × 3.2 cm',
+    description:
+      'Large wall-mounted 85-inch OLED screen set onto a Calacatta marble and fluted oak media wall directly opposite the studio king bed.',
+    focusTarget: [-2.82, 1.42, -2.35],
+    orbitOffset: [-2.35, 0.35, -0.45],
+  },
+  'studio-wardrobe': {
+    id: 'studio-wardrobe',
+    name: 'Illuminated Smoked-Glass & White Wardrobe',
+    category: 'Studio Bedroom',
+    room: 'studio',
+    roomLabel: 'Bedroom 1 – Studio',
+    material: 'Matte White Lacquer / Light Oak / Tempered Smoked Glass',
+    dimensions: '220 × 60 × 284 cm',
+    description:
+      'Full-height custom wardrobe with flush white lacquer doors, champagne brass pulls, and an internally lit glass garment display bay.',
+    focusTarget: [-5.35, 1.4, -0.4],
+    orbitOffset: [0.35, 0.35, -2.35],
+  },
+
+  // ================= 3.2 BALCONY (UPPER MIDDLE) =================
+  'balcony-lounge': {
+    id: 'balcony-lounge',
+    name: 'Upper Terrace Lounge & Botanical Planters',
+    category: 'Balcony',
+    room: 'balcony',
+    roomLabel: 'Balcony (Upper-Middle)',
+    material: 'Kiln-Dried Teak / Weatherproof Ivory Fabric / Travertine',
+    dimensions: '185 × 90 × 72 cm',
+    description:
+      'Architectural upper-edge terrace lounge seating and travertine side table positioned between Bedroom 1 and Bedroom 2 behind a structural glass balustrade.',
+    focusTarget: [1.85, 0.48, -5.35],
+    orbitOffset: [-1.95, 0.85, 0.85],
+  },
+
+  // ================= 3.3 BEDROOM 2 (UPPER RIGHT) =================
+  'bed2-bed': {
+    id: 'bed2-bed',
+    name: 'Minimalist White Upholstered Queen Bed',
+    category: 'Bedroom 2',
+    room: 'bedroom2',
+    roomLabel: 'Bedroom 2 (Upper-Right)',
+    material: 'Pure White Linen / Warm Beige Throw / Solid Ash',
+    dimensions: '180 × 215 × 102 cm',
+    description:
+      'Calm minimalist queen bed framed by soft indirect cove lighting, cylindrical oak-top nightstands, and monochrome plaster relief wall art.',
+    focusTarget: [7.78, 0.55, -3.7],
+    orbitOffset: [-2.45, 1.15, 1.25],
+  },
+  'bed2-wardrobe': {
+    id: 'bed2-wardrobe',
+    name: 'Handleless Matte-White Wardrobe',
+    category: 'Bedroom 2',
+    room: 'bedroom2',
+    roomLabel: 'Bedroom 2 (Upper-Right)',
+    material: 'Matte White Lacquer / Recessed Light-Oak Channels',
+    dimensions: '220 × 60 × 282 cm',
+    description:
+      'Floor-to-ceiling pure white minimalist wardrobe with recessed oak finger channels and flush architectural joinery.',
+    focusTarget: [3.4, 1.4, -4.75],
+    orbitOffset: [2.35, 0.35, 0.85],
+  },
+
+  // ================= 3.4 BEDROOM 3 (LOWER LEFT) =================
+  'bed3-bed': {
+    id: 'bed3-bed',
+    name: 'Japandi Light-Oak & White Bouclé Bed',
+    category: 'Bedroom 3',
+    room: 'bedroom3',
+    roomLabel: 'Bedroom 3 (Lower-Left)',
+    material: 'Rift-Cut Light Oak / Ivory Bouclé / Honed Travertine',
+    dimensions: '188 × 218 × 94 cm',
+    description:
+      'Low-slung contemporary oak platform bed with extended horizontal headboard slats and monolithic travertine bedside tables.',
+    focusTarget: [-5.9, 0.52, 5.25],
+    orbitOffset: [1.35, 1.2, -2.45],
+  },
+  'bed3-wardrobe': {
+    id: 'bed3-wardrobe',
+    name: 'Fluted Glass & White Lacquer Wardrobe',
+    category: 'Bedroom 3',
+    room: 'bedroom3',
+    roomLabel: 'Bedroom 3 (Lower-Left)',
+    material: 'Reeded Frosted Glass / Matte White / Brushed Steel',
+    dimensions: '215 × 60 × 282 cm',
+    description:
+      'Four-door minimalist wardrobe pairing translucent fluted glass panels with warm interior cabinet lighting.',
+    focusTarget: [-8.6, 1.4, 2.15],
+    orbitOffset: [2.35, 0.35, 0.65],
+  },
+  'bed3-lounge': {
+    id: 'bed3-lounge',
+    name: 'Curved Ivory Bouclé Reading Chair & Oak Table',
+    category: 'Bedroom 3',
+    room: 'bedroom3',
+    roomLabel: 'Bedroom 3 (Lower-Left)',
+    material: 'Ivory Bouclé Wool / Turned Light Oak',
+    dimensions: '84 × 82 × 74 cm',
+    description:
+      'Sculptural barrel-back accent chair paired with a turned light-oak side table and ceramic vessel.',
+    focusTarget: [-7.75, 0.48, 4.85],
+    orbitOffset: [1.65, 0.78, -1.15],
+  },
+
+  // ================= 3.5 LIVING ROOM (CENTRAL AREA) =================
+  'living-sofa': {
+    id: 'living-sofa',
+    name: 'Modern Luxury Sofa',
+    category: 'Living Room',
+    room: 'living',
+    roomLabel: 'Living Room (Central)',
+    material: 'Beige & Warm Ivory Bouclé Fabric',
+    dimensions: '295 × 135 × 76 cm',
+    description:
+      'Modern minimalist modular sectional sofa positioned in the central salon with natural daylight from the upper-middle balcony, directly facing the main television.',
+    focusTarget: [-0.72, 0.48, -2.35],
+    orbitOffset: [2.25, 1.18, 1.55],
+  },
+  'living-tv': {
+    id: 'living-tv',
+    name: '85" Salon OLED Television & Media Cabinet',
+    category: 'Living Room',
+    room: 'living',
+    roomLabel: 'Living Room (Central)',
+    material: 'Honed Travertine / Fluted Light Oak / Matte White Lacquer',
+    dimensions: '275 × 46 × 210 cm',
+    description:
+      'Architectural travertine and fluted light-oak feature wall with a flagship 85-inch OLED display and floating white media console.',
+    focusTarget: [2.72, 1.15, -2.45],
+    orbitOffset: [-2.45, 0.48, 0.55],
+  },
+  'living-coffee-table': {
+    id: 'living-coffee-table',
+    name: 'Dual-Tier Travertine & Oak Coffee Table',
+    category: 'Living Room',
+    room: 'living',
+    roomLabel: 'Living Room (Central)',
+    material: 'Roman Travertine / Rift-Cut Light Oak',
+    dimensions: '132 × 86 × 34 cm',
+    description:
+      'Low architectural coffee table combining a honed travertine plinth with a cantilevered light-oak top and curated art books.',
+    focusTarget: [0.92, 0.25, -2.35],
+    orbitOffset: [-1.45, 1.05, 1.35],
+  },
+
+  // ================= 3.6 KITCHEN & DINING AREA (LOWER RIGHT) =================
+  'kitchen-island': {
+    id: 'kitchen-island',
+    name: 'Calacatta Marble Waterfall Kitchen Island',
+    category: 'Kitchen & Dining',
+    room: 'kitchen',
+    roomLabel: 'Kitchen & Dining (Lower-Right)',
+    material: 'Honed Calacatta Marble / Fluted Light Oak / Bouclé Stools',
+    dimensions: '260 × 106 × 92 cm',
+    description:
+      'Mitered Calacatta marble waterfall island with fluted light-oak millwork, warm under-counter LED strip, espresso machine, and three counter stools.',
+    focusTarget: [6.4, 0.62, 3.0],
+    orbitOffset: [-2.35, 1.05, -1.35],
+  },
+  'kitchen-fridge': {
+    id: 'kitchen-fridge',
+    name: 'Integrated French-Door Refrigerator',
+    category: 'Kitchen & Dining',
+    room: 'kitchen',
+    roomLabel: 'Kitchen & Dining (Lower-Right)',
+    material: 'Brushed Satin Stainless / Matte White Cabinetry',
+    dimensions: '96 × 72 × 215 cm',
+    description:
+      'Built-in double-door stainless steel refrigerator with filtered water dispenser and flush pure-white surround millwork.',
+    focusTarget: [8.52, 1.08, 0.15],
+    orbitOffset: [-2.25, 0.4, 0.85],
+  },
+  'kitchen-cookzone': {
+    id: 'kitchen-cookzone',
+    name: 'Culinary Cabinetry, Induction Cooktop, Oven & Sink',
+    category: 'Kitchen & Dining',
+    room: 'kitchen',
+    roomLabel: 'Kitchen & Dining (Lower-Right)',
+    material: 'Matte White Lacquer / Light Oak / Calacatta Marble / Black Glass',
+    dimensions: '540 × 66 × 284 cm',
+    description:
+      'Spacious L-shaped kitchen featuring a built-in wall oven tower, frameless 4-zone induction cooktop, architectural range hood, undermount stainless sink, and Calacatta stone backsplash.',
+    focusTarget: [8.52, 1.12, 3.35],
+    orbitOffset: [-2.45, 0.58, -0.65],
+  },
+  'dining-table': {
+    id: 'dining-table',
+    name: 'Six-Seater Light-Oak & Marble Dining Suite',
+    category: 'Kitchen & Dining',
+    room: 'kitchen',
+    roomLabel: 'Kitchen & Dining (Lower-Right)',
+    material: 'Solid Light Oak / Honed Calacatta Marble / White Bouclé Chairs',
+    dimensions: '222 × 106 × 76 cm',
+    description:
+      'Sculptural rounded marble dining table on twin fluted oak pedestals surrounded by six curved white bouclé chairs with generous circulation clearance.',
+    focusTarget: [3.55, 0.58, 3.0],
+    orbitOffset: [-2.25, 1.15, -1.75],
+  },
+};

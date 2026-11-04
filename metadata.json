@@ -1,0 +1,6 @@
+{
+  "name": "Lumière Residence — 3D Virtual Apartment Tour",
+  "description": "Photorealistic interactive 3D architectural visualization of a modern minimalist luxury three-bedroom apartment with Free Fly, First-Person Walk, and Object Orbit navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
